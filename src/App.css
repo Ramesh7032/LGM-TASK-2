@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+.header {
+  margin: 3%;
+  text-align: center;
+}
+
+#lgm {
+  font-size: 45px;
+  font-weight: bold;
+}
+#button {
+  margin: 2%;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 157, 0);
+  cursor: pointer;
+  transition: 0.4s;
+  transition-duration: 500ms;
+}
+#button:hover {
+  transform: scale(1.1);
+  background: black;
+  color: white;
+}
+.main {
+  margin: 5%;
+  text-align: center;
+}
+
+.details img {
+  border-radius: 50%;
+  transition-duration: 1000ms;
+  transition: 0.4s;
+}
+.details img:hover {
+  transform: scale(1.05);
+}
+.details .name {
+  text-transform: uppercase;
+}
+.details p {
+  font-weight: bold;
+  margin: 1%;
+  font-size: large;
+}
